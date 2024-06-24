@@ -23,7 +23,4 @@ def search(request):
     return JsonResponse({"results": []})
 
 def generate_vector(text):
-    # Function to convert text to vector (e.g., using a pre-trained model like BERT)
-    return np.random.rand(300)  # Placeholder for actual vector
-
-# Create your views here.
+    return np.random.rand(300)  # Placeholder
